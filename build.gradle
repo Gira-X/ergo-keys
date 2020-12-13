@@ -18,11 +18,10 @@ dependencies {
 
 intellij {
     plugins 'java'
-//    version '2019.3'
     version '2020.2'
 }
 
 patchPluginXml {
     sinceBuild '183.3'
-    untilBuild '202.*'
+    untilBuild '203.*'
 }
